@@ -27,12 +27,12 @@ public class Main {
         int localHex = 0xFF;
         int localBinary = 0b1101;
         int localOctal = 014;
-        long localLong = 10000000L;
+        long localLong = 10_000_000L;
         String localString = "Every step I take gets me closer to my goal.";
 
         int instanceBinary = 0b101101;
         int instanceOctal = 072;
-        double instanceDouble = 1234.95;
+        double instanceDouble = 1_234.95;
 
         SomeClass someClass = new SomeClass(instanceBinary, instanceOctal, instanceDouble);
 
